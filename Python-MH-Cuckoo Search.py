@@ -77,7 +77,7 @@ def update_positions(position, discovery_rate = 0.25, min_values = [-5,-5], max_
                 
     return updated_position
 
-# CS Function.
+# CS Function
 def cuckoo_search(birds = 3, discovery_rate = 0.25, alpha_value = 0.01, lambda_value = 1.5, min_values = [-5,-5], max_values = [5,5], iterations = 50):    
     count = 0
     position = initial_position(birds = birds, min_values = min_values, max_values = max_values)    
